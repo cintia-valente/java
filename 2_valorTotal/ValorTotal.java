@@ -6,8 +6,9 @@ public class ValorTotal {
 		String nome;
 		float preco;
 		int quantidade;
-		double valor_total;
-		double valor_desconto;
+		double valorTotal;
+		double valorDsconto;
+		double total;
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Informe o nome do produto: "); 
@@ -20,27 +21,33 @@ public class ValorTotal {
 		quantidade = scan.nextInt();
 		
 		if (quantidade <= 10) {
-			valor_total = quantidade * preco;
+			valorTotal = (quantidade * preco);
 			System.out.println("Produto= " + nome);
-			System.out.printf("Valor total=  %.2f ", valor_total);
+			System.out.println("Valor total=  " + valorTotal);
 		}
 		
 		else if (quantidade <= 20) {
-			valor_desconto = (quantidade * preco) * 0.10;
+			valorTotal = (quantidade * preco);
+			valorDesconto = valorTotal * 0.10;
+			total = valorTotal - valorDesconto;
 			System.out.println("Produto= " + nome);
-			System.out.printf("Valor total=  %.2f ", valor_desconto);
+			System.out.println("Valor total=  " + total);
 		}
 		
 		else if (quantidade <= 50) {
-			valor_desconto = (quantidade * preco) * 0.20;
+			valorTotal = (quantidade * preco);
+			valorDesconto = valorTotal * 0.20;
+			total = valorTotal - valorDesconto;
 			System.out.println("Produto= " + nome);
-			System.out.printf("Valor total=  %.2f ", valor_desconto);
+			System.out.println("Valor total=  " + total);
 		}
 		
 		else {
-			valor_desconto = (quantidade * preco) * 0.25;
+			valorTotal = (quantidade * preco);
+			valorDesconto = valorTotal * 0.25;
+			total = valorTotal - valorDesconto;
 			System.out.println("Produto= " + nome);
-			System.out.printf("Valor total=  %.2f ", valor_desconto);
+			System.out.println("Valor total=  " + total);
 		}
 	}
 }
