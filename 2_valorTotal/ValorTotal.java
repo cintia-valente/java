@@ -7,7 +7,7 @@ public class ValorTotal {
 		float preco;
 		int quantidade;
 		double valorTotal;
-		double valorDsconto;
+		double valorDesconto;
 		double total;
 		
 		Scanner scan = new Scanner(System.in);
