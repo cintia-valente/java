@@ -12,7 +12,7 @@ public class Emprestimo {
 
     public void verificaStatus() {
 
-       if (this.reservado){
+       if (!this.reservado){
            System.out.println("Empréstimo ralizado com sucesso!");
        }
        else {
