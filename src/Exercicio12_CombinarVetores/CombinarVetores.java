@@ -41,6 +41,7 @@ public class CombinarVetores {
         int[] vetor3 = new int[vetor1.length + vetor2.length];
         System.arraycopy(vetor1, 0, vetor3, 0, vetor1.length);
         System.arraycopy(vetor2, 0, vetor3, vetor1.length, vetor2.length);
+        ordenar(vetor3);
         System.out.println(Arrays.toString(vetor3));
     }
 
