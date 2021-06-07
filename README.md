@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/38113015/111563124-1b5e7d00-8776-11eb-85b3-c1cbacbaeb78.jpg" width="80">
 
-# Exercícios
-Exercícios resolvidos
+# Exercícios Capacitação Java
+Exercícios resolvidos da capacitação de Java da célula de qualidade da empresa DBServer. 
 
 # Execução
 
