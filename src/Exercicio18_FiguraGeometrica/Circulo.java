@@ -1,6 +1,6 @@
 package Exercicio18_FiguraGeometrica;
 
-public class Circulo extends Forma{
+public class Circulo {
     public static final float PI = 3.14f;
 
     private float raio;
