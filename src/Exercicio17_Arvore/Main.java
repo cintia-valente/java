@@ -10,10 +10,12 @@ public class Main {
         Pai pai1 = new Pai("José", 45, new Pai("Jonas", 65), new Mae("Ana", 80));
         Pai pai2 = new Pai("Paulo", 52, new Pai("Jorge", 68), new Mae("Solange", 85));
 
-        mae1.mostrarDados();
-        mae2.mostrarDados();
+        System.out.println(mae1);
+        System.out.println(mae2);
+
         System.out.println();
-        pai1.mostrarDados();
-        pai2.mostrarDados();
+
+        System.out.println(pai1);
+        System.out.println(pai2);
     }
 }
