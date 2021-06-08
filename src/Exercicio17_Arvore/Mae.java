@@ -15,10 +15,6 @@ public class Mae extends Pessoa{
         this.mae = mae;
     }
 
-    public void mostrarDados() {
-        System.out.println(" " + nome + " " + idade + " " + pai.toString() + " " + mae.toString() + " ");
-    }
-
     public Pai getPai() {
 
         return pai;
@@ -38,6 +34,7 @@ public class Mae extends Pessoa{
     }
 
     public String toString() {
-        return this.getNome() + " " + this.getIdade();
+        return this.getNome() + " " + this.getIdade() + " " + this.pai.getNome() + " " + this.pai.getIdade()
+                + " " + this.mae.getNome() + " " + this.mae.getIdade();
     }
 }
